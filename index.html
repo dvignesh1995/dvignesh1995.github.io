@@ -1,38 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-<head> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vignesh D | Machine Learning Engineer</title>
+
+	<!-- Preconnect for fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<!-- Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- Font Awesome -->
 	<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="main.css">
-<meta charset="utf-8">
 
-<title>Vignesh D</title>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
-	<div class="container">
-	<div class="mn">
-		<div class="dp"></div>
-		<div class="words">
-		<h1>Vignesh D</h1>
-		<h2>Machine Learning Engineer</h2>
-			<div class="line"></div>
-			<h3>Interested in "Artificial Intelligence" and "Big Data" </br>
-			I love travelling and cooking</h3>
-		<div class="links"><PRE><a title="github" href="https://github.com/dvignesh1995" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>      <a title="stackoverflow" href="https://stackoverflow.com/users/12025466/vignesh-d" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>      <a title="linkedin" href="https://linkedin.com/in/dvignesh1995" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>      <a title="instagram" href="https://www.instagram.com/vignesh_dharmalingam_" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			</PRE>
-		</div>
-		<h4><i class="fa fa-envelope" aria-hidden="true"></i> Email: dvignesh1995@gmail.com</h4>
-		</div>
-	</div>
-<!--	<div class="box">
-		<a href="resume.pdf" target="_blank" style="text-decoration: none;">
-                <div class="option1">Resume&nbsp;&nbsp;<i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
-                </div></a>
-		
-	</div>
--->
-	</div>
+	<div class="background-noise"></div>
+	<div class="background-glow"></div>
 
+	<main class="bento-grid">
+		<!-- Profile Card (Large) -->
+		<div class="card profile-card" data-tilt>
+			<div class="card-content">
+				<div class="profile-header">
+					<img src="pic2.jpeg" alt="Vignesh D" class="profile-img">
+					<div class="status-badge">
+						<span class="pulse"></span>
+						Open to Work
+					</div>
+				</div>
+				<div class="profile-info">
+					<h1>Vignesh D</h1>
+					<h2>Machine Learning Engineer</h2>
+					<p class="tagline">Crafting intelligence with code.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bio Card (Updated with LinkedIn Summary) -->
+		<div class="card bio-card" data-tilt>
+			<div class="card-content">
+				<h3>About Me</h3>
+				<p>
+					Lead Analytics & MLOPS with <strong>6+ years</strong> of experience in building compute-intensive
+					<strong>big data analytics solutions</strong>. I tackle complicated architectural and scalability
+					issues to deliver business value.
+				</p>
+				<div class="hobbies">
+					<span class="pill">🤖 AI & MLOps</span>
+					<span class="pill">⚡ Spark</span>
+					<span class="pill">🏗️ Scalability</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Social Cards (Small Squares) -->
+		<a href="https://github.com/dvignesh1995" target="_blank" class="card social-card github" data-tilt
+			aria-label="GitHub">
+			<div class="card-content centered">
+				<i class="fa fa-github" aria-hidden="true"></i>
+			</div>
+		</a>
+
+		<a href="https://linkedin.com/in/dvignesh1995" target="_blank" class="card social-card linkedin" data-tilt
+			aria-label="LinkedIn">
+			<div class="card-content centered">
+				<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</div>
+		</a>
+
+		<a href="https://stackoverflow.com/users/12025466/vignesh-d" target="_blank"
+			class="card social-card stack-overflow" data-tilt aria-label="Stack Overflow">
+			<div class="card-content centered">
+				<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+			</div>
+		</a>
+
+		<a href="https://www.instagram.com/vignesh_dharmalingam_" target="_blank" class="card social-card instagram"
+			data-tilt aria-label="Instagram">
+			<div class="card-content centered">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</div>
+		</a>
+
+		<!-- Experience Card (Expanded) -->
+		<div class="card experience-card" data-tilt>
+			<div class="card-content">
+				<h3>Experience</h3>
+				<div class="timeline">
+					<div class="job-item">
+						<div class="job-header">
+							<span class="company">Tiger Analytics</span>
+							<span class="year">2025 - Present</span>
+						</div>
+						<p class="role">Senior Machine Learning Engineer</p>
+					</div>
+					<div class="job-item">
+						<div class="job-header">
+							<span class="company">Positive Integers</span>
+							<span class="year">2019 - 2025</span>
+						</div>
+						<p class="role">Lead Analytics & MLOps / Sr. ML Engineer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Education Card -->
+		<div class="card education-card" data-tilt>
+			<div class="card-content">
+				<h3>Education</h3>
+				<div class="edu-item">
+					<span class="school">Great Lakes Institute</span>
+					<span class="degree">PGP Data Science (2019)</span>
+				</div>
+				<div class="edu-item">
+					<span class="school">Amrita Vishwa Vidyapeetham</span>
+					<span class="degree">B.Tech EEE (2013-2017)</span>
+				</div>
+			</div>
+		</div>
+
+		<!-- Certifications Card -->
+		<div class="card cert-card" data-tilt>
+			<div class="card-content">
+				<h3>Certifications</h3>
+				<div class="cert-links">
+					<a href="https://credentials.databricks.com/a59e331f-cfc9-48d7-8d69-8425610dd06c#acc.8T9HozjB"
+						target="_blank" class="cert-link">
+						<i class="fa fa-certificate"></i> Databricks Spark 3.0
+					</a>
+					<a href="https://olympus1.mygreatlearning.com/certificate/THBSCSKD" target="_blank"
+						class="cert-link">
+						<i class="fa fa-graduation-cap"></i> PGP Data Science
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Tech Stack / Skills Card (Wide) -->
+		<div class="card skills-card" data-tilt>
+			<div class="card-content">
+				<h3>Tech Stack</h3>
+				<div class="skills-grid">
+					<div class="skill-item"><i class="fa fa-code"></i> Python</div>
+					<div class="skill-item"><i class="fa fa-database"></i> Big Data</div>
+					<div class="skill-item"><i class="fa fa-cogs"></i> TensorFlow</div>
+					<div class="skill-item"><i class="fa fa-cloud"></i> Azure/AWS</div>
+					<div class="skill-item"><i class="fa fa-terminal"></i> Git</div>
+					<div class="skill-item"><i class="fa fa-cubes"></i> MLOps</div>
+					<div class="skill-item"><i class="fa fa-bolt"></i> Spark</div>
+					<div class="skill-item"><i class="fa fa-server"></i> Linux</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact Card -->
+		<div class="card contact-card" data-tilt>
+			<div class="card-content">
+				<h3>Get in Touch</h3>
+				<a href="mailto:dvignesh1995@gmail.com" class="email-btn">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					dvignesh1995@gmail.com
+				</a>
+			</div>
+		</div>
+	</main>
+
+	<!-- Tilt.js for 3D effect (Vanilla JS implementation in script.js) -->
+	<script src="script.js"></script>
 </body>
+
 </html>
